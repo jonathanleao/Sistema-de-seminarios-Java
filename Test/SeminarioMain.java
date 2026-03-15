@@ -1,9 +1,9 @@
-package POO_aulasProgramaçãoOrientadaObjeto.SitsemaDeSeminario.Test;
+package POO_aulasProgramaçãoOrientadaObjeto.SistemaDeSeminario.Test;
 
-import POO_aulasProgramaçãoOrientadaObjeto.SitsemaDeSeminario.Domain.Local;
-import POO_aulasProgramaçãoOrientadaObjeto.SitsemaDeSeminario.Domain.Aluno;
-import POO_aulasProgramaçãoOrientadaObjeto.SitsemaDeSeminario.Domain.Professor;
-import POO_aulasProgramaçãoOrientadaObjeto.SitsemaDeSeminario.Domain.Seminario;
+import POO_aulasProgramaçãoOrientadaObjeto.SistemaDeSeminario.Domain.Local;
+import POO_aulasProgramaçãoOrientadaObjeto.SistemaDeSeminario.Domain.Aluno;
+import POO_aulasProgramaçãoOrientadaObjeto.SistemaDeSeminario.Domain.Professor;
+import POO_aulasProgramaçãoOrientadaObjeto.SistemaDeSeminario.Domain.Seminario;
 
 public class SeminarioMain {
     static void main(String[] args) {

@@ -1,4 +1,4 @@
-package POO_aulasProgramaçãoOrientadaObjeto.SitsemaDeSeminario.Domain;
+package POO_aulasProgramaçãoOrientadaObjeto.SistemaDeSeminario.Domain;
 
 public class Professor {
     private String nome;
