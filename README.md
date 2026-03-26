@@ -58,7 +58,7 @@ SistemaDeSeminario/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/Sistema-de-seminarios-Java.git
+git clone https://github.com/jonathanleao/Sistema-de-seminarios-Java.git
 ```
 
 2. Abra o projeto na sua IDE (IntelliJ ou VS Code)
