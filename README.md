@@ -1,77 +1,25 @@
-# 📚 Sistema de Seminários (Java)
+# 📋 Sistema de Seminários — Java
 
-Projeto simples desenvolvido em **Java** para praticar **Programação Orientada a Objetos (POO)**.
-O sistema simula a organização de um seminário, relacionando **professores, alunos e local**.
-
----
-
-## 🚀 Tecnologias utilizadas
-
-<p>
-<img src="https://skillicons.dev/icons?i=java,git,github,vscode,idea" />
-</p>
-
-* Java
-* Programação Orientada a Objetos
-* Git
-* GitHub
+> Um sistema simples de organização de seminários, relacionando professores, alunos e local — desenvolvido para praticar Orientação a Objetos em Java.
 
 ---
 
-## 🧠 Conceitos de POO utilizados
+## 📖 Sobre o Projeto
 
-Este projeto foi criado para praticar conceitos importantes de **POO em Java**, como:
-
-* Criação de classes
-* Associação entre objetos
-* Encapsulamento
-* Organização em pacotes
-* Instanciação de objetos
-* Sobrecargas de métodos
+O Sistema de Seminários é um projeto desenvolvido em Java que simula a organização de um seminário acadêmico. O sistema relaciona professores, alunos e locais, praticando os principais conceitos de Programação Orientada a Objetos.
 
 ---
 
-## 📂 Estrutura do projeto
+## 🧩 Entidades do Sistema
 
-```
-SistemaDeSeminario
- ├── src
- │   ├── domain
- │   │   ├── Aluno.java
- │   │   ├── Professor.java
- │   │   ├── Seminario.java
- │   │   └── Local.java
- │   │
- │   └── teste
- │       └── SeminarioTeste.java
-```
+| Classe | Responsabilidade |
+|---|---|
+| **Professor** | Responsável por um ou mais seminários |
+| **Seminario** | Representa o seminário em si |
+| **Aluno** | Participante do seminário |
+| **Local** | Local onde o seminário será realizado |
 
-### 📌 Pacote `domain`
-
-Contém as classes principais do sistema:
-
-* **Aluno** → representa um aluno que participa do seminário
-* **Professor** → responsável pelo seminário
-* **Seminario** → representa o seminário em si
-* **Local** → local onde o seminário será realizado
-
-### 📌 Pacote `teste`
-
-Contém a classe **main**, responsável por criar os objetos e testar o funcionamento do sistema.
-
----
-
-## ⚙️ Como o sistema funciona
-
-1. Um **professor** é responsável por um ou mais seminários.
-2. Um **seminário** possui:
-
-   * um **local**
-   * vários **alunos participantes**
-3. Os **alunos** participam dos seminários.
-4. No `main`, são criados os objetos e feita a associação entre eles.
-
-Exemplo de fluxo do sistema:
+### Fluxo de relacionamento
 
 ```
 Professor
@@ -84,34 +32,58 @@ Professor
 
 ---
 
-## ▶️ Executando o projeto
-
-1. Clone o repositório
+## 🗂️ Estrutura do Projeto
 
 ```
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
-
-2. Abra o projeto em uma IDE como:
-
-* IntelliJ IDEA
-* VS Code
-
-3. Execute a classe:
-
-```
-SeminarioTeste.java
+SistemaDeSeminario/
+└── src/
+    ├── domain/
+    │   ├── Aluno.java
+    │   ├── Professor.java
+    │   ├── Seminario.java
+    │   └── Local.java
+    └── teste/
+        └── SeminarioTeste.java
 ```
 
 ---
 
-## 📖 Objetivo do projeto
+## ▶️ Como Rodar
 
-Este projeto foi criado com o objetivo de **praticar conceitos de Java e Programação Orientada a Objetos**, simulando um sistema simples de gerenciamento de seminários.
+### Pré-requisitos
+- Java JDK 8 ou superior
+- IntelliJ IDEA ou VS Code
+
+### Passo a passo
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/sistema-de-seminarios.git
+```
+
+2. Abra o projeto na sua IDE (IntelliJ ou VS Code)
+
+3. Localize o arquivo `SeminarioTeste.java`
+
+4. Execute o método `main` diretamente pela IDE
 
 ---
 
-## 👨‍💻 Autor
+## 📚 Aprendizados
 
-Desenvolvido por **Jonathan** como parte dos estudos em **Java e desenvolvimento backend**.
+Este projeto foi desenvolvido como exercício prático de Java. Durante a criação, foram aplicados os seguintes conceitos:
 
+- **Criação de classes** — modelagem das entidades do sistema
+- **Associação entre objetos** — relacionamento entre Professor, Seminário, Aluno e Local
+- **Encapsulamento** — atributos privados com getters e setters
+- **Organização em pacotes** — separação entre `domain` e `teste`
+- **Instanciação de objetos** — criação e uso dos objetos no método main
+- **Sobrecarga de métodos** — diferentes assinaturas para o mesmo método
+
+---
+
+## 👤 Autor
+
+Feito por **Jonathan** — em desenvolvimento, aprendendo Java na prática.
+
+[![GitHub](https://img.shields.io/badge/GitHub-seu--usuario-black?logo=github)](https://github.com/seu-usuario)
