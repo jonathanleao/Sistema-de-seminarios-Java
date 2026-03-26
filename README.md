@@ -86,4 +86,3 @@ Este projeto foi desenvolvido como exercício prático de Java. Durante a criaç
 
 Feito por **Jonathan** — em desenvolvimento, aprendendo Java na prática.
 
-[![GitHub](https://img.shields.io/badge/GitHub-seu--usuario-black?logo=github)](https://github.com/jonathanleao)
