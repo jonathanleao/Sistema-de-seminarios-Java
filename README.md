@@ -78,7 +78,7 @@ Este projeto foi desenvolvido como exercício prático de Java. Durante a criaç
 - **Encapsulamento** — atributos privados com getters e setters
 - **Organização em pacotes** — separação entre `domain` e `teste`
 - **Instanciação de objetos** — criação e uso dos objetos no método main
-- **Sobrecarga de construtores** — diferentes assinaturas para o mesmo método
+- **Sobrecarga de construtores** 
 
 ---
 
